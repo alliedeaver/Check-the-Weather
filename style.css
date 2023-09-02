@@ -15,7 +15,6 @@ h1 {
 
 .text-center {
     text-align: center;
-
 }
 
 .city-search {
@@ -28,26 +27,40 @@ h1 {
 }
 .d-flex {
     width: 100%;
+    flex-direction: column;
     height: fit-content;
+    margin-left: 1%;
 }
 
 .btn-outline-success {
     width: 25%;
+    margin: .5%;
     height: fit-content;
+    background-color: lightgray;
+    font: 500;
+    border-color: blue;
 }
 
 .form-control {
-    margin: 2%;
+    margin: .5%;
     padding: 1%;
     border-radius:15px;
     width: 25%;
     height: 60px;
-
 }
 
 .text {
-    font-weight: 400;
+    font-weight: 600;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
-    justify-content: center;
+}
+
+.forecast-box {
+    height: 200px;
+    width: 500px;
+    border-color: black;
+    border: 15px;
+    margin: 4%;
+    padding: 2%;
+
 }
